@@ -87,12 +87,10 @@ body{
 
 /*-------------parallax2-----------------*/
 .text-light{
-   margin-left: 11%;
-  
-   
+    
+    
+    margin-left: 5em;
 }
-
-
 
 .button{
     margin-left: 100px;
@@ -160,7 +158,14 @@ body{
 }
 
 
-
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
 
 
 .slider{
