@@ -1,0 +1,213 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+
+
+.nav-link{
+    margin-right: 20px;
+   
+}
+
+
+
+#services{
+    padding: 80px 0;
+}
+
+.services-img{
+    width: 100px;
+    margin-top: 20px;
+}
+
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before{
+    content: '';
+    background:black;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform:translateY(63px);
+
+}
+
+
+.title::after{
+    content: '';
+    background: black;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform:translateY(8px);
+
+}
+
+
+#services .btn-success{
+
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    width: 200px;
+   
+
+}
+
+
+
+
+.services-img {
+    transition:1s;
+}
+
+
+.services-img:hover{
+  transform: scale(1.1);
+  z-index:2;
+    
+}
+
+
+
+.parallax-1 h1{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+}
+
+.button{
+    margin-left: 100px;
+}
+
+
+.parallax-1{
+    background:url(images/pexels-pixabay-219794.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-inner{
+    padding: 10% 0;
+}
+
+
+
+/*-------------parallax2-----------------*/
+.parallax-2 h1{
+    font-size: 70px;
+    color: rgb(7, 144, 37);
+    margin-left: 100px;
+}
+
+.button{
+    margin-left: 100px;
+}
+
+
+.parallax-2{
+    background:url(images/pexels-clem-onojeghuo-375896.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-inner{
+    padding: 10% 0;
+}
+
+
+.parallax-3{
+    background:url(images/pexels-mark-stebnicki-2255903.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-inner{
+    padding: 10% 0;
+}
+
+.parallax-3 h5{
+    font-size: 30px;
+    color: white;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+#testiomonls{
+    margin:100px 0;
+    
+}
+
+.testiomonls{
+   border-left: 4px solid green;
+   margin-top: 50px;
+   margin-bottom:50px;
+    
+}
+
+
+.testiomonls img{
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   margin:0 10%;
+    
+}
+
+.user-details{
+    display: inline-block;
+    font-size:25px
+}
+
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+
+.slider{
+    height: 260px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+
+.slider .slider-track{
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width:calc(250px * 14);
+
+}
+
+
+
+.slider .slide{
+    height: 200px;
+    width: 250px;
+}
