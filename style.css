@@ -29,31 +29,10 @@ body{
     text-transform: uppercase;
 }
 
-.title::before{
-    content: '';
-    background:black;
-    height: 5px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    transform:translateY(63px);
-
-}
 
 
-.title::after{
-    content: '';
-    background: black;
-    height: 10px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    display: block;
-    transform:translateY(8px);
 
-}
+
 
 
 #services .btn-success{
@@ -107,11 +86,13 @@ body{
 
 
 /*-------------parallax2-----------------*/
-.parallax-2 h1{
-    font-size: 70px;
-    color: rgb(7, 144, 37);
-    margin-left: 100px;
+.text-light{
+   margin-left: 11%;
+  
+   
 }
+
+
 
 .button{
     margin-left: 100px;
@@ -179,14 +160,7 @@ body{
 }
 
 
-@keyframes scroll{
-    0%{
-        transform: translateX(0);
-    }
-    100%{
-        transform: translateX(calc(-250px * 7));
-    }
-}
+
 
 
 .slider{
